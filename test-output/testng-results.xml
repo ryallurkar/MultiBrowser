@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161747" started-at="2019-02-08T12:53:45Z" finished-at="2019-02-08T12:56:27Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="161747" started-at="2019-02-08T12:53:45Z" finished-at="2019-02-08T12:56:27Z">
+      <class name="tests.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.Login@5ad851c9]" name="setup" is-config="true" duration-ms="12498" started-at="2019-02-08T18:23:45Z" finished-at="2019-02-08T18:23:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Login@5ad851c9]" name="setup" is-config="true" duration-ms="1171" started-at="2019-02-08T18:23:58Z" finished-at="2019-02-08T18:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPageLanguage()[pri:0, instance:tests.Login@5ad851c9]" name="testPageLanguage" duration-ms="271" started-at="2019-02-08T18:23:59Z" description="Verify Modal Title" finished-at="2019-02-08T18:23:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLanguage -->
+        <test-method status="PASS" signature="testRegisterWindow()[pri:1, instance:tests.Login@5ad851c9]" name="testRegisterWindow" duration-ms="3342" started-at="2019-02-08T18:23:59Z" description="Verify New window opens" finished-at="2019-02-08T18:24:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWindow -->
+        <test-method status="PASS" signature="testRegistrationForm()[pri:2, instance:tests.Login@5ad851c9]" name="testRegistrationForm" duration-ms="144111" started-at="2019-02-08T18:24:03Z" description="All fields are filled correctly, no hard errors are shown" finished-at="2019-02-08T18:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testLogout()[pri:3, instance:tests.Login@5ad851c9]" name="testLogout" duration-ms="157" started-at="2019-02-08T18:26:27Z" description="Verify that logout was successful." finished-at="2019-02-08T18:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Login@5ad851c9]" name="teardown" is-config="true" duration-ms="92" started-at="2019-02-08T18:26:27Z" description="Class Level Teardown!" finished-at="2019-02-08T18:26:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Login -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test Parallel]" parallel="tests" data-provider-thread-count="1">
+  <test name="Chrome TestGoogle(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.BaseTest">
+        <methods>
+          <include name="login1"/>
+          <include name="teardown"/>
+          <include name="setupClass"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- tests.BaseTest -->
+    </classes>
+  </test> <!-- Chrome TestGoogle(failed) -->
+</suite> <!-- Failed suite [Test Parallel] -->

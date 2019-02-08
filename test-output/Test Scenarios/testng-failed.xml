@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Test Scenarios]" parallel="classes" data-provider-thread-count="1">
+  <test name="Chrome TestGoogle(failed)" parallel="classes">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="tests.Login">
+        <methods>
+          <include name="testLogout"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.Login -->
+    </classes>
+  </test> <!-- Chrome TestGoogle(failed) -->
+  <test name="Firefox TestGoogle(failed)" parallel="classes">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tests.Login">
+        <methods>
+          <include name="testLogout"/>
+          <include name="testRegistrationForm"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- tests.Login -->
+    </classes>
+  </test> <!-- Firefox TestGoogle(failed) -->
+</suite> <!-- Failed suite [Test Scenarios] -->
