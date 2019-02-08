@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Test Scenarios" duration-ms="170788" started-at="2019-02-08T12:56:43Z" finished-at="2019-02-08T12:59:34Z">
+    <groups>
+    </groups>
+    <test name="Chrome 2 TestGoogle" duration-ms="22580" started-at="2019-02-08T12:56:43Z" finished-at="2019-02-08T12:57:05Z">
+      <class name="tests.Teaser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.Teaser@2692b61e]" name="setup" is-config="true" duration-ms="17707" started-at="2019-02-08T18:26:43Z" finished-at="2019-02-08T18:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPageLanguage()[pri:0, instance:tests.Teaser@2692b61e]" name="testPageLanguage" duration-ms="377" started-at="2019-02-08T18:27:01Z" description="Verify Page is in DE" finished-at="2019-02-08T18:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLanguage -->
+        <test-method status="PASS" signature="testSearchTeaser1()[pri:0, instance:tests.Teaser@2692b61e]" name="testSearchTeaser1" duration-ms="2040" started-at="2019-02-08T18:27:01Z" description="Search teasers Scenario 1" finished-at="2019-02-08T18:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTeaser1 -->
+        <test-method status="PASS" signature="testSearchTeaser2()[pri:0, instance:tests.Teaser@2692b61e]" name="testSearchTeaser2" duration-ms="2132" started-at="2019-02-08T18:27:03Z" description="Search teasers Scenario 2" finished-at="2019-02-08T18:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTeaser2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Teaser@2692b61e]" name="teardown" is-config="true" duration-ms="113" started-at="2019-02-08T18:27:05Z" description="Class Level Teardown!" finished-at="2019-02-08T18:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Teaser -->
+    </test> <!-- Chrome 2 TestGoogle -->
+    <test name="Firefox 2 TestGoogle" duration-ms="22837" started-at="2019-02-08T12:56:43Z" finished-at="2019-02-08T12:57:06Z">
+      <class name="tests.Teaser">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.Teaser@4c51bb7]" name="setup" is-config="true" duration-ms="18568" started-at="2019-02-08T18:26:43Z" finished-at="2019-02-08T18:27:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPageLanguage()[pri:0, instance:tests.Teaser@4c51bb7]" name="testPageLanguage" duration-ms="33" started-at="2019-02-08T18:27:01Z" description="Verify Page is in DE" finished-at="2019-02-08T18:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLanguage -->
+        <test-method status="PASS" signature="testSearchTeaser1()[pri:0, instance:tests.Teaser@4c51bb7]" name="testSearchTeaser1" duration-ms="1851" started-at="2019-02-08T18:27:01Z" description="Search teasers Scenario 1" finished-at="2019-02-08T18:27:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTeaser1 -->
+        <test-method status="PASS" signature="testSearchTeaser2()[pri:0, instance:tests.Teaser@4c51bb7]" name="testSearchTeaser2" duration-ms="1506" started-at="2019-02-08T18:27:03Z" description="Search teasers Scenario 2" finished-at="2019-02-08T18:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchTeaser2 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Teaser@4c51bb7]" name="teardown" is-config="true" duration-ms="855" started-at="2019-02-08T18:27:05Z" description="Class Level Teardown!" finished-at="2019-02-08T18:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Teaser -->
+    </test> <!-- Firefox 2 TestGoogle -->
+    <test name="Chrome 1 TestGoogle" duration-ms="167573" started-at="2019-02-08T12:56:43Z" finished-at="2019-02-08T12:59:30Z">
+      <class name="tests.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.Login@11eadcba]" name="setup" is-config="true" duration-ms="16685" started-at="2019-02-08T18:26:43Z" finished-at="2019-02-08T18:27:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Login@11eadcba]" name="setup" is-config="true" duration-ms="1850" started-at="2019-02-08T18:27:00Z" finished-at="2019-02-08T18:27:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPageLanguage()[pri:0, instance:tests.Login@11eadcba]" name="testPageLanguage" duration-ms="227" started-at="2019-02-08T18:27:01Z" description="Verify Modal Title" finished-at="2019-02-08T18:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLanguage -->
+        <test-method status="PASS" signature="testRegisterWindow()[pri:1, instance:tests.Login@11eadcba]" name="testRegisterWindow" duration-ms="3412" started-at="2019-02-08T18:27:02Z" description="Verify New window opens" finished-at="2019-02-08T18:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWindow -->
+        <test-method status="PASS" signature="testRegistrationForm()[pri:2, instance:tests.Login@11eadcba]" name="testRegistrationForm" duration-ms="145182" started-at="2019-02-08T18:27:05Z" description="All fields are filled correctly, no hard errors are shown" finished-at="2019-02-08T18:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testLogout()[pri:3, instance:tests.Login@11eadcba]" name="testLogout" duration-ms="99" started-at="2019-02-08T18:29:30Z" description="Verify that logout was successful." finished-at="2019-02-08T18:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Login@11eadcba]" name="teardown" is-config="true" duration-ms="89" started-at="2019-02-08T18:29:30Z" description="Class Level Teardown!" finished-at="2019-02-08T18:29:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Login -->
+    </test> <!-- Chrome 1 TestGoogle -->
+    <test name="Firefox 1 TestGoogle" duration-ms="170788" started-at="2019-02-08T12:56:43Z" finished-at="2019-02-08T12:59:34Z">
+      <class name="tests.Login">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:tests.Login@4f2613d1]" name="setup" is-config="true" duration-ms="21071" started-at="2019-02-08T18:26:43Z" finished-at="2019-02-08T18:27:04Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:tests.Login@4f2613d1]" name="setup" is-config="true" duration-ms="1450" started-at="2019-02-08T18:27:04Z" finished-at="2019-02-08T18:27:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testPageLanguage()[pri:0, instance:tests.Login@4f2613d1]" name="testPageLanguage" duration-ms="338" started-at="2019-02-08T18:27:05Z" description="Verify Modal Title" finished-at="2019-02-08T18:27:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPageLanguage -->
+        <test-method status="PASS" signature="testRegisterWindow()[pri:1, instance:tests.Login@4f2613d1]" name="testRegisterWindow" duration-ms="3529" started-at="2019-02-08T18:27:06Z" description="Verify New window opens" finished-at="2019-02-08T18:27:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegisterWindow -->
+        <test-method status="PASS" signature="testRegistrationForm()[pri:2, instance:tests.Login@4f2613d1]" name="testRegistrationForm" duration-ms="143303" started-at="2019-02-08T18:27:09Z" description="All fields are filled correctly, no hard errors are shown" finished-at="2019-02-08T18:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistrationForm -->
+        <test-method status="PASS" signature="testLogout()[pri:3, instance:tests.Login@4f2613d1]" name="testLogout" duration-ms="290" started-at="2019-02-08T18:29:33Z" description="Verify that logout was successful." finished-at="2019-02-08T18:29:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:tests.Login@4f2613d1]" name="teardown" is-config="true" duration-ms="515" started-at="2019-02-08T18:29:33Z" description="Class Level Teardown!" finished-at="2019-02-08T18:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.Login -->
+    </test> <!-- Firefox 1 TestGoogle -->
+  </suite> <!-- Test Scenarios -->
+</testng-results>
