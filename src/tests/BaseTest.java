@@ -26,7 +26,7 @@ public class BaseTest {
 	public WebDriverWait wait;
 	ArrayList<String> results = new ArrayList<>();
 	static String domain[] = { "gmail", "outlook" };
-	static String names[] = { "ricky", "henry", "rick", "jose", "shaun", "smith", "scott", "david" };
+	static String names[] = { "mark", "tom", "jerry", "tim", "Ron", "alex", "alberto", "beckie" };
 
 	public WebDriver getDriver() {
 		return driver;
