@@ -3,28 +3,28 @@
 <suite name="Test Scenarios" thread-count="4" parallel="tests"
 	data-provider-thread-count="1">
 	
-		<test name="Chrome 1 TestGoogle">
+		<test name="Chrome 1 TestRegistration">
 		<parameter name="browser" value="chrome" />
 			<classes>
-				<class name="tests.Login" />
+				<class name="tests.Registration" />
 			</classes>
 	</test> <!-- Test -->
 	
-			<test name="Chrome 2 TestGoogle">
+			<test name="Chrome 2 TestTeaser">
 		<parameter name="browser" value="chrome" />
 			<classes>
 				<class name="tests.Teaser" />
 			</classes>
 	</test> <!-- Test -->
 	
-		<test name="Firefox 1 TestGoogle">
+		<test name="Firefox 1 TestRegistration">
 		<parameter name="browser" value="firefox" />
 			<classes>
-				<class name="tests.Login" />
+				<class name="tests.Registration" />
 			</classes>
 	</test> <!-- Test -->
 	
-	<test name="Firefox 2 TestGoogle">
+	<test name="Firefox 2 TestTeaser">
 		<parameter name="browser" value="firefox" />
 			<classes>
 				<class name="tests.Teaser" />
