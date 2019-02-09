@@ -36,8 +36,8 @@ public class BaseTest {
 	@BeforeClass // The annotated method will be run before all tests in this suite have run
 	public void setup(@Optional("chrome") String browser) throws InterruptedException {
 
-		System.setProperty("wdm.gitHubTokenName", "firefox_binary");
-		System.setProperty("wdm.gitHubTokenSecret", "f2b0fed32144ea8feb5cd8cc7ed44f56d52c692f");
+		System.setProperty("wdm.gitHubTokenName", "");
+		System.setProperty("wdm.gitHubTokenSecret", "");
 		WebDriverManager.chromedriver().setup();
 		WebDriverManager.firefoxdriver().setup();
 
