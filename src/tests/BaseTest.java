@@ -27,6 +27,9 @@ public class BaseTest {
 	ArrayList<String> results = new ArrayList<>();
 	static String domain[] = { "gmail", "outlook" };
 	static String names[] = { "mark", "tom", "jerry", "tim", "Ron", "alex", "alberto", "beckie" };
+	
+	String tokenName = "";
+	String tokenSecret = "";
 
 	public WebDriver getDriver() {
 		return driver;
@@ -35,9 +38,9 @@ public class BaseTest {
 	@Parameters("browser") // this annotation is used to insert browser parameter from TestNG xml
 	@BeforeClass // The annotated method will be run before all tests in this suite have run
 	public void setup(@Optional("chrome") String browser) throws InterruptedException {
-
-		System.setProperty("wdm.gitHubTokenName", "firefox_binary");
-		System.setProperty("wdm.gitHubTokenSecret", "f2b0fed32144ea8feb5cd8cc7ed44f56d52c692f");
+		// Please create Github Personal Access Token to download geckodriver
+		System.setProperty("wdm.gitHubTokenName", tokenName);
+		System.setProperty("wdm.gitHubTokenSecret", tokenSecret);
 		WebDriverManager.chromedriver().setup();
 		WebDriverManager.firefoxdriver().setup();
 
