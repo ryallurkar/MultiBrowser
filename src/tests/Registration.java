@@ -98,12 +98,12 @@ public class Registration extends BaseTest {
 		Assert.assertEquals(winids.size(), 2, "New Window is not opened ");
 	}
 
-	@Test(priority = 2, description = "All fields are filled correctly, no hard errors are shown")
-	@Description("Test Description: All fields are filled correctly, no hard errors are shown")
+	@Test(priority = 2, description = "All fields are filled correctly, and user register successfully")
+	@Description("Test Description: All fields are filled correctly, and user register successfully")
 	@Story("User can fill registeration form")
 	public void testRegistrationForm() throws InterruptedException {
 		ExtentTestManager.getTest()
-				.setDescription("Test Description: All fields are filled correctly, no hard errors are shown");
+				.setDescription("Test Description: All fields are filled correctly, and user register successfully");
 
 		// Move to new opened window
 		String mainwindow = driver.getWindowHandle();
