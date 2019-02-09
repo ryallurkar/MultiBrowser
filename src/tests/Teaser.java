@@ -18,7 +18,7 @@ public class Teaser extends BaseTest {
 		ExtentTestManager.getTest().setDescription("Test Description: Verify Page is in DE");
 		// Webpage is displayed in German
 		WebElement rootElement = driver.findElement(By.cssSelector("html"));
-		Assert.assertEquals(rootElement.getAttribute("lang"), "de");
+		Assert.assertEquals(rootElement.getAttribute("lang"), "de","Language is not DE");
 	}
 
 	@Test(priority = 0, description = "Search teasers Scenario 1")
@@ -30,13 +30,13 @@ public class Teaser extends BaseTest {
 		searchTeaser("Sweet & Easy");
 
 		// Search results page is shown
-		Assert.assertTrue(driver.findElement(By.xpath("//span[contains(.,\"Suchergebnis\")]")).isDisplayed());
+		Assert.assertTrue(driver.findElement(By.xpath("//span[contains(.,\"Suchergebnis\")]")).isDisplayed(),"Search results page not opened");
 
 		getAllTeasers();
 		// Headline is shown as stated
-		Assert.assertEquals(getTeaserFrom(results, 0), "SWEET & EASY - ENIE BACKT");
+		Assert.assertEquals(getTeaserFrom(results, 0), "SWEET & EASY - ENIE BACKT","Result doesn't match");
 		// Three search results are shown
-		Assert.assertEquals(getNumberOfTeasers(), 3);
+		Assert.assertEquals(getNumberOfTeasers(), 3,"Deviation from the expected result , 1 > Results > 1 are shown");
 	}
 
 	@Test(priority = 0, description = "Search teasers Scenario 2")
@@ -46,7 +46,7 @@ public class Teaser extends BaseTest {
 		ExtentTestManager.getTest().setDescription("Test Description: User search teaser and verify results");
 		searchTeaser("Sweet & Easy pikant");
 		// One search result is shown
-		Assert.assertEquals(getNumberOfTeasers(), 1);
+		Assert.assertEquals(getNumberOfTeasers(), 1,"Deviation from the expected result , 1 > Results > 1 are shown");
 	}
 
 }
