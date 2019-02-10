@@ -14,9 +14,7 @@ Important : create personal access token and add to BaseTest.java for downloadin
 	String tokenName = "";
 	String tokenSecret = "";
 
-Usage
-$ git clone https://github.com/ryallurkar/MultiBrowser.git
-$ mvn clean test
+git clone https://github.com/ryallurkar/MultiBrowser.git
 
 1. To run from command line "mvn clean test"
 
