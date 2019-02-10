@@ -16,7 +16,7 @@ Important : create personal access token and add to BaseTest.java for downloadin
 	String tokenName = "";
 	String tokenSecret = "";
 
-1. To run from command line "mvn test"
+1. To run from command line "mvn clean test"
 
 2. Go to File > Import > Maven > Existing Maven Projects > Select unzipped folder (MultiBrowser)
 
