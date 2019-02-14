@@ -7,7 +7,7 @@ Steps to Import and run the project
 •	Maven
 •	Eclipse
 •	Allure
-•	Chrome and FF latest
+•	Chrome and FF latest VERSION
 
 Clone the repo 
 
