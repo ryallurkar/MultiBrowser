@@ -9,14 +9,14 @@ Steps to Import and run the project
 •	Allure
 •	Chrome and FF latest VERSION
 
-Clone the repo 
-
 Important : create personal access token and add to BaseTest.java for downloading chrome and gecko driver automatically
 
 	String tokenName = "";
 	String tokenSecret = "";
 
-1. To run from command line "mvn test"
+git clone https://github.com/ryallurkar/MultiBrowser.git
+
+1. To run from command line "mvn clean test"
 
 2. Go to File > Import > Maven > Existing Maven Projects > Select unzipped folder (MultiBrowser)
 
