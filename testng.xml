@@ -2,33 +2,15 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Test Scenarios" thread-count="4" parallel="tests"
 	data-provider-thread-count="1">
-	
-		<test name="Chrome 1 TestRegistration">
+
+	<test name="Chrome 1 TestRegistration">
 		<parameter name="browser" value="chrome" />
-			<classes>
-				<class name="tests.Registration" />
-			</classes>
+		<parameter name="keyword" value="Sweet &amp; Easy" />
+		<parameter name="result" value="SWEET &amp; EASY - ENIE BACKT" />
+		<classes>
+			<class name="tests.NewTeaser" />
+		</classes>
 	</test> <!-- Test -->
-	
-			<test name="Chrome 2 TestTeaser">
-		<parameter name="browser" value="chrome" />
-			<classes>
-				<class name="tests.Teaser" />
-			</classes>
-	</test> <!-- Test -->
-	
-		<test name="Firefox 1 TestRegistration">
-		<parameter name="browser" value="firefox" />
-			<classes>
-				<class name="tests.Registration" />
-			</classes>
-	</test> <!-- Test -->
-	
-	<test name="Firefox 2 TestTeaser">
-		<parameter name="browser" value="firefox" />
-			<classes>
-				<class name="tests.Teaser" />
-			</classes>
-	</test> <!-- Test -->
+
 
 </suite> <!-- Suite -->
